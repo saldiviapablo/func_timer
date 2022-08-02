@@ -11,7 +11,7 @@ def tiempo_total(func):
 
 @tiempo_total
 def random_func():
-    for _ in range(1, 1000000):
+    for _ in range(1, 1000000000):
         pass
 
 random_func()
